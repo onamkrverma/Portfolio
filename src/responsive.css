@@ -20,12 +20,21 @@
     
     
     /* Home page */
-    .intro,.vectorImg {
-        width: 85%;
-    }
-    .innerContent {
+    .intro,.vectorImg,.innerContent {
         width: 80%;
     }
+
+    /* about page */
+    .profileImg img {
+        width: 165px;
+    }
+    .content {
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .educationBox {
+        width: 100%
+    };
     
     /* Project page */
     .projectInner {
@@ -58,7 +67,18 @@
 
     /* footer section */
     .footerSection{
+        align-items: flex-start;
         flex-direction: column;
     }
+    .findMe{
+        align-items: flex-start;
+    }
+    .findMe .socialIcons .github{
+        margin-left: 0;
+    }
     
+
+    .copyright{
+        font-size: 0.8rem;
+    }
 }

@@ -18,8 +18,8 @@ const Projects = (props) => {
                     <h3 className="projectTitle">{element.title}</h3>
                     <p>{element.description} </p>
                     <div className="btn projectLinks">
-                    {element.github && <a rel="noreferrer" href={element.github} target="_blank"><input type="button" value="GitHub" /></a >}
-                    {element.demo && <a rel="noreferrer" href={element.demo} target="_blank"><input type="button" value="Demo" /></a >}                
+                    {element.github && <a rel="noreferrer" href={element.github} target="_blank" title='github source code'><input type="button" value="GitHub" /></a >}
+                    {element.demo && <a rel="noreferrer" href={element.demo} target="_blank" title='demo link'><input type="button" value="Demo" /></a >}                
                     </div>
                 </div>)}
                 <p>More project comming soon..</p>

@@ -7,13 +7,11 @@
   font-family: 'Poppins', sans-serif;
 }
 
-html {
-  scroll-behavior: smooth;
-}
+
 
 .heading {
   text-align: center;
-  opacity: 0.4;
+  color: gray;
   font-size: 3rem;
 }
 
@@ -144,7 +142,7 @@ html {
 }
 
 .vectorImg {
-  width: 30%;
+  width: 25%;
   margin: 10px;
 
 }
@@ -217,21 +215,10 @@ input.resumeBtn {
   margin-right: 10px;
 }
 
-input.resumeBtn:hover {
-  transform: translateX(-5px);
-}
-
-input.contactBtn:hover {
-  transform: translateX(5px);
-}
-
-
-
 
 /* about section */
 .content {
   display: flex;
-  align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
 
@@ -242,15 +229,36 @@ input.contactBtn:hover {
 }
 
 .innerContent p {
-  margin: 15px 0;
+  margin: 10px 0;
 }
 
 .profileImg img {
   border-radius: 15px;
-  border: 1px solid #ee3e33;
   width: 250px;
 }
 
+
+.educationBox {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  box-shadow: 0 0 5px 2px #cfcdcd;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 15px 0;
+}
+.eduContent {
+  display: flex;
+  align-items: center;
+  width: 90%;
+}
+.eduContent img{
+  width: 50px;
+  margin-right: 10px;
+}
+.collegeDetails p{
+  margin: 0;
+}
 
 /* Project section */
 .project {
@@ -390,6 +398,7 @@ textarea {
   width: 50%;
   border-radius: 10px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 
