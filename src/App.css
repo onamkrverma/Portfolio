@@ -42,6 +42,10 @@
   justify-content: center;
   margin: 5px 20px;
 }
+.logo a{
+  text-decoration: none;
+  color: white;
+}
 
 .rightNav {
   display: flex;
@@ -221,6 +225,7 @@ input.resumeBtn {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  margin-bottom: 20px;
 
 }
 
@@ -245,12 +250,12 @@ input.resumeBtn {
   box-shadow: 0 0 5px 2px #cfcdcd;
   border-radius: 10px;
   padding: 5px;
-  margin: 15px 0;
+  margin: 20px 0;
 }
 .eduContent {
   display: flex;
   align-items: center;
-  width: 90%;
+  font-size: 0.8rem;
 }
 .eduContent img{
   width: 50px;
@@ -258,6 +263,21 @@ input.resumeBtn {
 }
 .collegeDetails p{
   margin: 0;
+}
+
+.quotes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.quotes i {
+  width: 50%;
+  color: gray;
+  font-size: 0.8rem;
+}
+.quotes i:nth-child(2){
+  text-align: center;
 }
 
 /* Project section */
@@ -333,9 +353,9 @@ input.resumeBtn {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  width: 65%;
+  /* width: 70%; */
 }
-.skillsIcons{
+.icons{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -347,6 +367,18 @@ input.resumeBtn {
   width: 20%;
 }
 
+.toolsIcons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.toolsIcons .icons{
+  width: 15%;
+}
+.toolsIcons .icons img{
+  width: 40%;
+}
 
 
 /* contact section */

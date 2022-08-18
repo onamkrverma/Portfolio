@@ -17,7 +17,7 @@ const Navbar = () => {
         <nav className="navBar" style={{height: menue?"280px":"43px"}}>
             <div className="leftNav">
                 <div className="logo">
-                    <h1>{"</ Onam >"} </h1>
+                    <Link to="/"><h1>{"</ Onam >"}</h1></Link>
                 </div>
             </div>
             <div className="rightNav" style={{display: menue?"flex":""}} >

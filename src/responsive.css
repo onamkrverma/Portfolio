@@ -23,6 +23,7 @@
     .intro,.vectorImg,.innerContent {
         width: 80%;
     }
+    
 
     /* about page */
     .profileImg img {
@@ -33,12 +34,18 @@
         margin-bottom: 20px;
     }
     .educationBox {
-        width: 100%
-    };
+        width: 85%;
+    }
     
     /* Project page */
     .projectInner {
         width: 85%;
+    }
+    .projectVectorImg img {
+        width: 85%;
+    }
+    .quotes i {
+        width: 95%;
     }
 
     /* Contact page */
@@ -57,13 +64,16 @@
 
     /* Skill page */
     .skillsVector img{
-        width: 300px;
+        width: 85%;
     }
-   
-    .skillsIcons{
+    
+    .icons{
         width: 40%;
     }
 
+    .toolsIcons .icons {
+        width: 35%;
+    }
 
     /* footer section */
     .footerSection{
@@ -80,5 +90,13 @@
 
     .copyright{
         font-size: 0.8rem;
+    }
+}
+
+/* for tablet screen */
+@media (max-width:769px){
+    .contactImg {
+        position: relative;
+        left: 0;
     }
 }

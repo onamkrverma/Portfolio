@@ -3,6 +3,7 @@ import projectVectorImg from '../assets/vectorProject.png'
 
 const Projects = (props) => {
     const {projectData} = props;
+    
   return (
     <>
         <div className="projectContainer" id="projects">
@@ -22,9 +23,9 @@ const Projects = (props) => {
                     {element.demo && <a rel="noreferrer" href={element.demo} target="_blank" title='demo link'><input type="button" value="Demo" /></a >}                
                     </div>
                 </div>)}
-                <p>More project comming soon..</p>
-
+                
             </div>
+            <p>More project comming soon..</p>
         </div>
     </>
   )

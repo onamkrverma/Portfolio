@@ -22,5 +22,13 @@
         "image": "image/weather.jpeg",
         "github": "https://github.com/onamkrverma/Weather-web-app",
         "demo" : ""
+    },
+    {
+        "id": "4",
+        "title": "My Portfolio",
+        "description": "Built my protfolio website using React.js. This website fully responsive and optimized for mobile and tablet screen",
+        "image": "image/portfolio.png",
+        "github": "https://github.com/onamkrverma/Portfolio",
+        "demo" : "https://onam.netlify.app/"
     }
 ]

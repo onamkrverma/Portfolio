@@ -15,7 +15,7 @@ const About = () => {
                     <div className="innerContent">
                         <h3>Hello! Everyone <span className="wavingHand">👋🏻</span></h3>
                         <p>I am Onam Kumar Verma a Frontend developer who is passinate about Full stack development from Delhi,India.
-                            Basically i am self taught programmer because i learn how to code by myself with the help of internet and YouTube</p>
+                            Basically i am self taught developer because i learn how to code by myself with the help of internet, YouTube and online courses</p>
                         <p>I have a keen interest in technology and everyday i am learing somethings new...</p>
 
                         <div className="educationBox">
@@ -28,6 +28,10 @@ const About = () => {
                                     <p>B.SC(H) Chemistry</p>
                                 </div>
                             </div>
+                        </div>
+                        <div className="quotes">
+                            <i>‟In the begining of anything all balls feels new but after persistence and practice you will be the master of it ” </i>
+                            <i>- Onamkrverma</i>
                         </div>
                     </div>
                 </div>

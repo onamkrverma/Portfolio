@@ -1,5 +1,5 @@
 import './App.css';
-import './responsive.css'
+import './responsive.css';
 import About from './components/About';
 import Contact from './components/Contact';
 import Home from './components/Home';

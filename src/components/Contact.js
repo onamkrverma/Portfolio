@@ -7,7 +7,7 @@ const Contact = () => {
             
             <div className="contactInner">
                 <div className="contactImg">
-                    <img src="image/email.png" alt="email img"/>
+                    <img src="image/message.png" alt="email img"/>
                 </div>
                 <div className="contact">
                     <form action="https://formspree.io/f/xeqdqpnr" method="POST">

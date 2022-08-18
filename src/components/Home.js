@@ -49,7 +49,7 @@ const Home = () => {
                         <p>My field of interest are web technologies and product.</p>
                         <p>Whenever possible, i eager to apply my passion for developing real world product which solve the reallife problem with my programing skills and JavaScript morden library like React.js.</p>
                         <div className="btn">
-                            <input type="button" onClick={redirectAbout} value="Know more about me" />
+                            <input type="button" onClick={redirectAbout} value="Know more..." />
                         </div>
                     </div>
                 </div>
