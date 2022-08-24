@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <div>
         <header className="headerSection">
-        <nav className="navBar" style={{height: menue?"280px":"43px"}}>
+        <nav className="navBar" style={{height: menue?"245px":"43px"}}>
             <div className="leftNav">
                 <div className="logo">
                     <Link to="/"><h1>{"</ Onam >"}</h1></Link>

@@ -1,11 +1,11 @@
 [
     {
         "id": "1",
-        "title": "MOVIElogy",
-        "description": "Movielogy is An awesome movie details website made using javaScript and TMDB API With this website users can get currently trending movies list with all relevant details/information about that movie such as Overview, Trailer, Cast and Crew details",
-        "image": "image/movielogy.jpg",
-        "github":"https://github.com/onamkrverma/Movielogy",
-        "demo" : "https://movielogy22.netlify.app/"
+        "title": "Weather Web App",
+        "description": "A mini javascript weather web application which display realtime temperature using open weather API. App display other miscelleanuos weather details such as real feal, humidity, sunset and sunrise time and Change its background image according to weather condition using Unsplash API",
+        "image": "image/weather.jpeg",
+        "github": "https://github.com/onamkrverma/Weather-web-app",
+        "demo" : ""
     },
     {
         "id": "2",
@@ -16,12 +16,14 @@
         "demo" : "https://keepnotes22.netlify.app/"
     },
     {
+        
+
         "id": "3",
-        "title": "Weather Web App",
-        "description": "A mini javascript weather web application which display realtime temperature using open weather API. App display other miscelleanuos weather details such as real feal, humidity, sunset and sunrise time and Change its background image according to weather condition using Unsplash API",
-        "image": "image/weather.jpeg",
-        "github": "https://github.com/onamkrverma/Weather-web-app",
-        "demo" : ""
+        "title": "MOVIElogy",
+        "description": "Movielogy is An awesome movie details website made using javaScript and TMDB API With this website users can get currently trending movies list with all relevant details/information about that movie such as Overview, Trailer, Cast and Crew details",
+        "image": "image/movielogy.jpg",
+        "github":"https://github.com/onamkrverma/Movielogy",
+        "demo" : "https://movielogy22.netlify.app/"
     },
     {
         "id": "4",

@@ -6,6 +6,9 @@ import { useNavigate } from "react-router-dom";
 const Home = () => {
     let navigate = useNavigate();
 
+    const redirectResume = () => {
+        navigate('/resume')
+    }
     const redirectAbout = () => {
         navigate('/about')
     }
@@ -19,7 +22,7 @@ const Home = () => {
             <div className="introBox">
                 <div className="intro">
                     <h1>Hi! everyone <span className="wavingHand">👋🏻</span></h1>
-                    <p>Myself <strong>Onam Kumar Verma</strong> a Frontend developer and I love to convert ideas into beautiful things through programing</p>
+                    <p>Myself <strong>Onam Kumar Verma</strong> a Frontend developer and I love to convert ideas into beautiful things through programming</p>
 
                     <div className="socialIcons ">
                         <a href="https://github.com/onamkrverma/" target="_blank" rel="noopener noreferrer" title='github'><i className="fa-brands fa-github github"></i></a>
@@ -27,7 +30,7 @@ const Home = () => {
                         <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=onamkrverma@gmail.com/" target="_blank"  rel="noopener noreferrer" title='mail'><i className="fa-solid fa-envelope"></i></a>
                     </div>
                     <div className="btn">
-                        <input type="button" value="Resume" className="resumeBtn" />
+                        <input type="button" onClick={redirectResume} value="Resume" className="resumeBtn" />
                         <input type="button" onClick={redirectContact} value="Contact" className="contactBtn" />
                     </div>
 

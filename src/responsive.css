@@ -3,7 +3,6 @@
     .navBar{
         flex-direction: column;
        justify-content: flex-start;
-       transition: all 0.5s ease-out;
     }
     .rightNav{
         display: none;

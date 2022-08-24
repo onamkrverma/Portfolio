@@ -281,6 +281,11 @@ input.resumeBtn {
 }
 
 /* Project section */
+.projectContainer p:last-child {
+  text-align: center;
+  margin: 8px 0;
+}
+
 .project {
   display: flex;
   justify-content: center;

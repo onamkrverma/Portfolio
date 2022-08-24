@@ -12,6 +12,7 @@ import {
   Route,
 } from "react-router-dom";
 import Footer from './components/Footer';
+import PdfView from './components/PdfView';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
     <Routes>
     <Route path="/" element={<Home/>}/>
     <Route path="/about" element={<About/>}/>
+    <Route path="/resume" element={<PdfView/>}/>
     <Route path="/projects" element={<ProjectList/>}/>
     <Route path="/skills" element={<Skills/>}/>
     <Route path="/contact" element={<Contact/>}/>
