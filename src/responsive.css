@@ -1,72 +1,108 @@
-@media (max-width:426px){
+@media (max-width:426px) {
+
     /* Navbar */
-    .navBar{
+    .navBar {
         flex-direction: column;
-       justify-content: flex-start;
+        align-items: normal;
+        justify-content: flex-start;
     }
-    .rightNav{
+
+    .rightNav {
         display: none;
     }
-    .rightNav ul{
+
+    .rightNav ul {
         flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
     }
+
     .rightNav ul li {
-        margin: 10px 0;
+        border-top: 1px solid gray;
+        width: 100%;
     }
-    .menuBar{
+    
+    .rightNav ul li a {
+        display: block;
+        margin: 2px 0;
+        border-radius: 0;
+
+    }
+
+
+    .menuBar {
         display: block;
     }
-    
-    
+
+
     /* Home page */
-    .intro,.vectorImg,.innerContent {
+    .intro,
+    .vectorImg,
+    .innerContent {
         width: 80%;
     }
-    
+
 
     /* about page */
     .profileImg img {
         width: 165px;
     }
+
     .content {
         justify-content: center;
         margin-bottom: 20px;
     }
+
     .educationBox {
         width: 85%;
     }
-    
+
     /* Project page */
     .projectInner {
         width: 85%;
     }
+
     .projectVectorImg img {
         width: 85%;
     }
+
     .quotes i {
         width: 95%;
     }
+
+    .projectInner img {
+        height: 160px;
+        margin-bottom: 6px;
+    }
+
+
 
     /* Contact page */
     .contactImg {
         position: relative;
     }
+
     .contactImg img {
         width: 240px;
     }
-    .contact{
+
+    .contact {
         width: 100%;
     }
+
     .contact form {
         width: 85%;
     }
+    .submitBtn {
+        width: auto;
+    }
 
     /* Skill page */
-    .skillsVector img{
+    .skillsVector img {
         width: 85%;
     }
-    
-    .icons{
+
+    .icons {
         width: 40%;
     }
 
@@ -75,25 +111,27 @@
     }
 
     /* footer section */
-    .footerSection{
+    .footerSection {
         align-items: flex-start;
         flex-direction: column;
     }
-    .findMe{
+
+    .findMe {
         align-items: flex-start;
     }
-    .findMe .socialIcons .github{
+
+    .findMe .socialIcons .github {
         margin-left: 0;
     }
-    
 
-    .copyright{
+
+    .copyright {
         font-size: 0.8rem;
     }
 }
 
 /* for tablet screen */
-@media (max-width:769px){
+@media (max-width:769px) {
     .contactImg {
         position: relative;
         left: 0;

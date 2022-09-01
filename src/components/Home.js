@@ -31,7 +31,7 @@ const Home = () => {
                     </div>
                     <div className="btn">
                         <input type="button" onClick={redirectResume} value="Resume" className="resumeBtn" />
-                        <input type="button" onClick={redirectContact} value="Contact" className="contactBtn" />
+                        <input type="button" onClick={redirectContact} value="Contact Me" className="contactBtn" />
                     </div>
 
                 </div>
@@ -52,7 +52,7 @@ const Home = () => {
                         <p>My field of interest are web technologies and product.</p>
                         <p>Whenever possible, i eager to apply my passion for developing real world product which solve the reallife problem with my programing skills and JavaScript morden library like React.js.</p>
                         <div className="btn">
-                            <input type="button" onClick={redirectAbout} value="Know more..." />
+                            <input type="button" onClick={redirectAbout} value="Know more..."/>
                         </div>
                     </div>
                 </div>

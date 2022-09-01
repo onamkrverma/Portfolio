@@ -22,11 +22,11 @@ const Navbar = () => {
             </div>
             <div className="rightNav" style={{display: menue?"flex":""}} >
                 <ul>
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/projects">Project</Link></li>
-                    <li><Link to="/skills">Skills</Link></li>
-                    <li><Link to="/about">About Me</Link></li>
-                    <li><Link to="/contact">Contact Me</Link></li>
+                    <li><Link to="/">HOME</Link></li>
+                    <li><Link to="/projects">PROJECTS</Link></li>
+                    <li><Link to="/skills">SKILLS</Link></li>
+                    <li><Link to="/about">ABOUT ME</Link></li>
+                    <li><Link to="/contact">CONTACT ME</Link></li>
                 </ul>
             </div>
             <div className={`menuBar ${menue ?"menuActive":""}`} onClick={activeMenue}>
