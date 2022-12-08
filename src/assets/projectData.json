@@ -40,6 +40,14 @@
         "image": "image/okvMemes.jpg",
         "github": "https://github.com/onamkrverma/OKV-Memes",
         "demo" : "https://okvmemes.netlify.app/"
+    },
+    {
+        "id": "6",
+        "title": "Zomato Clone (UI)",
+        "description": "Built a fully responsive zomato clone website using react.js. Tech stack used: React.js, JavaScript, CSS, HTML.",
+        "image": "image/zomatoClone.jpeg",
+        "github": "https://github.com/onamkrverma/zomatoClone",
+        "demo" : "https://zomatouiclone.netlify.app/"
     }
 
 ]

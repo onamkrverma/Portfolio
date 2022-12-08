@@ -1,11 +1,11 @@
 import React from 'react'
-import pdf from '../assets/Resume.pdf'
 
 const PdfView = () => {
   return (
     <div className='pdfView'>
-        <iframe src={pdf} title="resume" width="100%" height="800" frameBorder="0" ></iframe>
+        <iframe src="https://drive.google.com/file/d/1ICc6AVbFup6I7fRz2V2ZzWqLQ-Fe9hQP/preview" title='resume' width="100%" height="800" allow="autoplay"></iframe>
     </div>
+    
   )
 }
 
