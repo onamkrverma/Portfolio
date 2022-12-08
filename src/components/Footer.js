@@ -6,7 +6,7 @@ const Footer = () => {
         <footer>
             <div className='footerSection'>
             <div className="footLeft">
-                <h1>Onam</h1>
+                <h1>{"</ Onam >"}</h1>
             </div>
             <div className="footmid">
                 <div className="findMe">
