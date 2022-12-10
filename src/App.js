@@ -13,13 +13,15 @@ import {
 } from "react-router-dom";
 import Footer from './components/Footer';
 import PdfView from './components/PdfView';
+import ScrollToTop from './components/ScrollToUp';
+import NoPageFound from './components/NoPageFound';
 
 function App() {
   return (
     <>
     <BrowserRouter>
+    <ScrollToTop/>
     <Navbar/>
-    
     <Routes>
     <Route path="/" element={<Home/>}/>
     <Route path="/about" element={<About/>}/>
@@ -27,6 +29,7 @@ function App() {
     <Route path="/projects" element={<ProjectList/>}/>
     <Route path="/skills" element={<Skills/>}/>
     <Route path="/contact" element={<Contact/>}/>
+    <Route path="*" element={<NoPageFound/>}/>
     </Routes>
     <Footer/>
     </BrowserRouter>

@@ -11,6 +11,10 @@ const Skills = () => {
                 </div>
                 <div className="skills">
                     <div className="skillsInneer">
+                        <div className="icons reactIcon">
+                            <i className="fa-brands fa-react"></i>
+                            <p>React js</p>
+                        </div>
                         <div className="icons javascriptIon">
                             <i className="fa-brands fa-square-js"></i>
                             <p>JavaScript</p>

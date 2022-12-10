@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&famaily=Nunito&family=Inter&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
 }
 
 
@@ -29,6 +30,7 @@
   background: #202d8f;
   color: white;
   position: relative;
+  box-shadow: 0px 5px 6px 0px rgb(0 0 0 / 20%);
 
 }
 
@@ -42,7 +44,8 @@
   justify-content: center;
   margin: 5px 20px;
 }
-.logo a{
+
+.logo a {
   text-decoration: none;
   color: white;
 }
@@ -252,16 +255,19 @@ input.resumeBtn {
   padding: 5px;
   margin: 20px 0;
 }
+
 .eduContent {
   display: flex;
   align-items: center;
   font-size: 0.8rem;
 }
-.eduContent img{
+
+.eduContent img {
   width: 50px;
   margin-right: 10px;
 }
-.collegeDetails p{
+
+.collegeDetails p {
   margin: 0;
 }
 
@@ -271,14 +277,30 @@ input.resumeBtn {
   align-items: center;
   flex-direction: column;
 }
+
 .quotes i {
   width: 50%;
   color: gray;
   font-size: 0.8rem;
 }
-.quotes i:nth-child(2){
+
+.quotes i:nth-child(2) {
   text-align: center;
 }
+
+.certificates-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 15px 0;
+}
+
+.certificate-heading {
+  font-size: 1.5rem;
+}
+
+
 
 /* Project section */
 .projectContainer p:last-child {
@@ -292,12 +314,14 @@ input.resumeBtn {
   flex-wrap: wrap;
   margin: 15px 0;
 }
+
 .projectVectorImg {
   width: 100%;
   text-align: center;
 }
-.projectVectorImg img{
-  width: 300px; 
+
+.projectVectorImg img {
+  width: 300px;
 }
 
 .projectInner {
@@ -338,7 +362,8 @@ input.resumeBtn {
   width: 100%;
   text-align: center;
 }
-.skillsVector img{
+
+.skillsVector img {
   width: 350px;
 }
 
@@ -348,11 +373,13 @@ input.resumeBtn {
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
-.skills i{
+
+.skills i {
   font-size: 5rem;
   margin: 10px;
   color: #212d89;
 }
+
 .skillsInneer {
   display: flex;
   align-items: center;
@@ -360,7 +387,8 @@ input.resumeBtn {
   flex-wrap: wrap;
   /* width: 70%; */
 }
-.icons{
+
+.icons {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -378,10 +406,11 @@ input.resumeBtn {
   justify-content: center;
 }
 
-.toolsIcons .icons{
+.toolsIcons .icons {
   width: 15%;
 }
-.toolsIcons .icons img{
+
+.toolsIcons .icons img {
   width: 40%;
 }
 
@@ -430,34 +459,37 @@ textarea {
 
 .submitBtn {
   border: none;
-  background:white ;
+  background: white;
   color: #202d8f;
   width: 50%;
   border-radius: 10px;
   font-weight: bold;
   cursor: pointer;
 }
-.submitStatus{
+
+.submitStatus {
   color: white;
   text-align: center;
 }
-.submitStatus p i{
+
+.submitStatus p i {
   margin-right: 5px;
 }
 
-.notice{
+.notice {
   text-align: center;
 }
 
 /* footer section */
-footer{
+footer {
   background: #040837;
   color: white;
 }
+
 .footerSection {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
   padding: 20px;
 }
@@ -466,12 +498,16 @@ footer{
   display: flex;
   flex-direction: column;
 }
+
 .footRight a {
   text-decoration: none;
   color: white;
 }
+
 .copyright {
   text-align: center;
+  border-top: 1px solid gray;
+  padding: 5px 0;
 }
 
 /* Find me section */
@@ -489,4 +525,11 @@ footer{
   margin: 6px 10px;
   font-size: 1.6rem;
   color: white;
+}
+
+.nopagefound {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
