@@ -1,4 +1,4 @@
-[
+export const projectData = [
     {
         "id": "1",
         "title": "Weather Web App",

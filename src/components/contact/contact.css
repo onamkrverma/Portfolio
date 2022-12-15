@@ -1,0 +1,86 @@
+/* contact section */
+.contactInner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    margin: 15px 0;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactImg {
+    position: absolute;
+    left: 10px;
+}
+
+.contactImg img {
+    width: 300px;
+}
+
+.contact form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: #202d8f;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 10px;
+}
+
+.contact form input,
+textarea {
+    margin: 6px 0;
+    padding: 5px;
+    outline: none;
+}
+
+.submitBtn {
+    border: none;
+    background: white;
+    color: #202d8f;
+    width: 50%;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.submitStatus {
+    color: white;
+    text-align: center;
+}
+
+.submitStatus p i {
+    margin-right: 5px;
+}
+
+.notice {
+    text-align: center;
+}
+
+
+@media (max-width:426px){
+    .contactImg {
+        position: relative;
+    }
+
+    .contactImg img {
+        width: 240px;
+    }
+
+    .contact {
+        width: 100%;
+    }
+
+    .contact form {
+        width: 85%;
+    }
+    .submitBtn {
+        width: auto;
+    }
+}

@@ -1,0 +1,72 @@
+/* skill section */
+.skillsVector {
+    width: 100%;
+    text-align: center;
+}
+
+.skillsVector img {
+    width: 350px;
+}
+
+.skills {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.skills i {
+    font-size: 5rem;
+    margin: 10px;
+    color: #212d89;
+}
+
+.skillsInneer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* width: 70%; */
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 100px;
+    height: 150px;
+}
+
+.taiwindcss-logo{
+    width: 70%;
+    height: 70%;
+}
+
+.toolsIcons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.toolsIcons .icons {
+    width: 100px;
+}
+
+.toolsIcons .icons img {
+    width: 40%;
+}
+
+
+@media (max-width:426px) {
+    .skillsVector img {
+        width: 85%;
+    }
+
+
+}

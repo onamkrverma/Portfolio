@@ -1,0 +1,66 @@
+/* footer section */
+footer {
+    background: #040837;
+    color: white;
+}
+
+.footerSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 60px;
+}
+
+.footRight {
+    display: flex;
+    flex-direction: column;
+}
+
+.footRight a {
+    text-decoration: none;
+    color: white;
+}
+
+.copyright {
+    text-align: center;
+    border-top: 1px solid gray;
+    padding: 5px 0;
+}
+
+/* Find me section */
+.findMe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.socialIcons {
+    margin: 5px 0;
+}
+
+.socialIcons i {
+    margin: 6px 10px;
+    font-size: 1.6rem;
+    color: white;
+}
+
+
+@media (max-width:426px) {
+    .footerSection {
+        padding: 20px;
+    }
+
+    .findMe {
+        align-items: flex-start;
+    }
+
+    .findMe .socialIcons .github {
+        margin-left: 0;
+    }
+
+
+    .copyright {
+        font-size: 0.8rem;
+    }
+}

@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import './navbar.css'
 import { Link } from 'react-router-dom'
 
 const Navbar = () => {
@@ -18,9 +19,9 @@ const Navbar = () => {
 
 
   return (
-    <div>
+    
       <header className="headerSection">
-        <nav className="navBar" style={{ height: menue ? "300px" : "43px",borderRadius: menue? "0px 0px 100px 20px":"0px" }}>
+        <nav className="navBar" style={{ height: menue ? "300px" : "60px",borderRadius: menue? "0px 0px 100px 20px":"0px" }}>
           <div className="leftNav">
             <div className="logo">
               <Link to="/"><h1>{"</ Onam >"}</h1></Link>
@@ -29,10 +30,10 @@ const Navbar = () => {
           <div className="rightNav" style={{ display: menue ? "flex" : "" }} >
             <ul>
               <li onClick={handleOnClick}><Link to="/">Home</Link></li>
+              <li onClick={handleOnClick}><Link to="/about">About</Link></li>
               <li onClick={handleOnClick}><Link to="/projects">Projects</Link></li>
               <li onClick={handleOnClick}><Link to="/skills">Skills</Link></li>
-              <li onClick={handleOnClick}><Link to="/about">About me</Link></li>
-              <li onClick={handleOnClick}><Link to="/contact">Contact me</Link></li>
+              <li onClick={handleOnClick}><Link to="/contact">Contact</Link></li>
             </ul>
           </div>
           <div className={`menuBar ${menue ? "menuActive" : ""}`} onClick={activeMenue}>
@@ -43,7 +44,7 @@ const Navbar = () => {
         </nav>
 
       </header>
-    </div>
+    
   )
 }
 
