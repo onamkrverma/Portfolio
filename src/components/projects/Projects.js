@@ -15,8 +15,8 @@ const Projects = ({ home }) => {
 
   return (
     <>
-      <div className="projectContainer" >
-        <h1 className="heading">Projects</h1>
+      <div className="projectContainer bottom-margin" >
+        <div className="heading">Projects</div>
         <div className="projectVectorImg">
           <img src={projectVectorImg} alt="project vector img" />
         </div>
@@ -36,7 +36,7 @@ const Projects = ({ home }) => {
             </div>)}
 
           <div className={`read-more-wrapper ${!home ? 'hide-content' : ''}`} >
-            <Link to='/projects'><button className='read-more-btn redirect-btn'>View All Projects..</button></Link>
+            <Link to='/projects'><button className='read-more-btn redirect-btn'>View All Projects <i className="fa-solid fa-arrow-right"></i></button></Link>
           </div>
         </div>
         <div className={`note-wrapper ${home ? 'hide-content' : ''}`}>

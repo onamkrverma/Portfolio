@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&famaily=Nunito&family=Inter&display=swap');
 @import './styles/commonClasses.css';
+@import './styles/variable.css';
 
 * {
   margin: 0;
@@ -9,14 +10,25 @@
   scroll-behavior: smooth;
 }
 
+.logo {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
 .heading {
   text-align: center;
-  color: gray;
+  color: darkgray;
   font-size: 3rem;
+  margin-bottom: 20px;
+  font-weight: 600;
 }
 
 .hide-content{
   display: none;
+}
+
+.bottom-margin{
+  margin-bottom: 85px;
 }
 
 .redirect-btn  {
@@ -30,9 +42,11 @@
   font-weight: 600;
 }
 
+
 .redirect-btn:hover {
   cursor: pointer;
   background: black;
+  transform: translate(25px, 0px);
 }
 
 
@@ -43,10 +57,3 @@
   height: 100vh;
 }
 
-/* for tablet screen */
-@media (max-width:769px) {
-  .contactImg {
-      position: relative;
-      left: 0;
-  }
-}

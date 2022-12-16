@@ -2,7 +2,7 @@
 .contactInner {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     position: relative;
     margin: 15px 0;
@@ -14,10 +14,6 @@
     justify-content: center;
 }
 
-.contactImg {
-    position: absolute;
-    left: 10px;
-}
 
 .contactImg img {
     width: 300px;
@@ -36,8 +32,11 @@
 .contact form input,
 textarea {
     margin: 6px 0;
-    padding: 5px;
+    padding: 10px;
     outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
 }
 
 .submitBtn {
@@ -65,9 +64,7 @@ textarea {
 
 
 @media (max-width:426px){
-    .contactImg {
-        position: relative;
-    }
+    
 
     .contactImg img {
         width: 240px;

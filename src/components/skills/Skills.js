@@ -11,8 +11,8 @@ import { Link } from 'react-router-dom'
 const Skills = ({ home }) => {
   return (
     <>
-      <div className="Container" id="my">
-        <h1 className="heading">Skills</h1>
+      <div className="Container bottom-margin" id="my">
+        <div className="heading">Skills</div>
         <div className={`skillsVector `}>
           <img src={skillsVector} alt="vector img" />
         </div>
@@ -53,7 +53,11 @@ const Skills = ({ home }) => {
             </div>
           </div>
           <div className={`read-more-wrapper ${!home ? 'hide-content' : ''}`} >
-            <Link to='/skills'><button className='read-more-btn redirect-btn'>Explore more..</button></Link>
+            <Link to='/skills'>
+              <button className='read-more-btn redirect-btn'>
+              See more <i className="fa-solid fa-arrow-right"></i>
+              </button>
+            </Link>
           </div>
         </div>
 

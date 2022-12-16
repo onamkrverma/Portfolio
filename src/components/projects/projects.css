@@ -1,4 +1,9 @@
 /* Project section */
+.projectContainer{
+  background: var(--project-bg);
+  padding: 20px 0 ;
+}
+
 .projectContainer p:last-child {
     text-align: center;
     margin: 8px 0;
@@ -10,7 +15,7 @@
     flex-wrap: wrap;
     margin: 15px 0;
   }
-  
+   
   .projectVectorImg {
     width: 100%;
     text-align: center;
@@ -30,8 +35,13 @@
     color: black;
     padding: 10px;
     border-radius: 15px;
-    box-shadow: 0 0 10px 2px #9d9999;
+   
+   
   
+  }
+  .projectInner:hover{
+    background: var(--secondary-bg);
+     box-shadow: var(--card-shadow);
   }
   
   .projectInner img {

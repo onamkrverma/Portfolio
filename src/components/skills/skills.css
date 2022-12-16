@@ -15,11 +15,7 @@
     flex-direction: column;
 }
 
-.skills i {
-    font-size: 5rem;
-    margin: 10px;
-    color: #212d89;
-}
+
 
 .skillsInneer {
     display: flex;
@@ -40,6 +36,11 @@
     border-radius: 10px;
     width: 100px;
     height: 150px;
+}
+.icons i {
+    font-size: 5rem;
+    margin: 10px;
+    color: #212d89;
 }
 
 .taiwindcss-logo{

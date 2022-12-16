@@ -9,8 +9,8 @@ const About = ({ home }) => {
 
   return (
     <div>
-      <div className="aboutMe" id="aboutMe">
-        <h1 className="heading">About Me</h1>
+      <div className="aboutMe bottom-margin" >
+        <div className="heading">About Me</div>
         <div className="content">
           <div className="profileImg-wrapper" style={{width:home?"200px":'', borderRadius:home?'50px':''}}>
             <img className='profile-image' src={profileImg} alt="img" loading='lazy' />
@@ -22,7 +22,7 @@ const About = ({ home }) => {
               <p>I am a self taught developer because i learn how to code by myself with the help of internet, online courses from website like <span><a href="https://freecodecamp.org/" target='_blank' rel="noreferrer">Freecodecamp</a> and <a href="https://www.w3schools.com/" target='_blank' rel="noreferrer">W3schools</a> </span>etc... and YouTube </p>
             </div>
             <div className={`read-more-wrapper ${!home?'hide-content':''}`} >
-             <Link to='/about'><button className='read-more-btn redirect-btn'>Read more..</button></Link>
+             <Link to='/about'><button className='read-more-btn redirect-btn'>Read more <i className="fa-solid fa-arrow-right"></i></button></Link>
             </div>
             <div className={`remain-about-content ${home ? 'hide-content' : ''}`}>
               <p>I have a keen interest in web technology and It was started when I was in college that time i used to create bloging website using Google's Blogspot plateform and try to editing/modifying the blog themes/templetes. </p>
@@ -47,7 +47,7 @@ const About = ({ home }) => {
               </div>
 
               <div className="certificates-wrapper">
-                <h1 className="heading certificate-heading">Certificates</h1>
+                <div className="heading certificate-heading">Certificates</div>
                 <div className="certificate-title-image-wrapper">
                   <h5 className='certificate-title'>
                     JavaScript Algorithms and Data Structures

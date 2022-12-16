@@ -7,7 +7,9 @@ const Footer = () => {
         <footer>
             <div className='footerSection'>
             <div className="footLeft">
-                <h1>{"</ Onam >"}</h1>
+                <div className="logo">
+                <span>{"</ Onam >"}</span>
+                </div>
             </div>
             <div className="footmid">
                 <div className="findMe">
