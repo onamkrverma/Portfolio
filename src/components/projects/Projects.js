@@ -1,8 +1,10 @@
 import React from 'react'
 import './projects.css'
-import projectVectorImg from './assets/vectorProject.png';
+import projectVectorImg from './assets/projectStages-amico.svg';
 import { projectData } from '../../data/projectData';
 import { Link } from 'react-router-dom';
+import {FaArrowRight} from 'react-icons/fa';
+
 
 const Projects = ({ home }) => {
   projectData.sort((a, b) => b.id - a.id);
@@ -16,11 +18,12 @@ const Projects = ({ home }) => {
   return (
     <>
       <div className="projectContainer bottom-margin" >
+        <div className="heading-vector-wrapper">
         <div className="heading">Projects</div>
         <div className="projectVectorImg">
           <img src={projectVectorImg} alt="project vector img" />
         </div>
-
+        </div>
         <div className="project">
           {projectList.map((element) =>
             <div className="projectInner" key={element.id}>
@@ -36,7 +39,11 @@ const Projects = ({ home }) => {
             </div>)}
 
           <div className={`read-more-wrapper ${!home ? 'hide-content' : ''}`} >
-            <Link to='/projects'><button className='read-more-btn redirect-btn'>View All Projects <i className="fa-solid fa-arrow-right"></i></button></Link>
+            <Link to='/projects'><button className='read-more-btn redirect-btn'>
+              View All projects
+              <span className='arrow-icon' ><FaArrowRight /></span> 
+             </button>
+             </Link>
           </div>
         </div>
         <div className={`note-wrapper ${home ? 'hide-content' : ''}`}>

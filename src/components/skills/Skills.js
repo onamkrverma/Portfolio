@@ -1,9 +1,9 @@
 import React from 'react'
 import './skills.css'
-import skillsVector from './assets/skills1.png'
-import vscode from './assets/vscode.png'
-import tailwindcss from './assets/tailwindcss.svg'
+import skillsVector from './assets/javaScript frameworks-pana.svg'
 import { Link } from 'react-router-dom'
+import { FaReact, FaJsSquare, FaCss3Alt, FaHtml5, FaBootstrap, FaGitAlt, FaGithub,FaArrowRight } from 'react-icons/fa'
+import { SiTailwindcss, SiVisualstudiocode } from 'react-icons/si'
 
 
 
@@ -11,51 +11,54 @@ import { Link } from 'react-router-dom'
 const Skills = ({ home }) => {
   return (
     <>
-      <div className="Container bottom-margin" id="my">
-        <div className="heading">Skills</div>
-        <div className={`skillsVector `}>
-          <img src={skillsVector} alt="vector img" />
+      <div className="container bottom-margin" id="my">
+        <div className="heading-vector-wrapper">
+          <div className="heading">Skills</div>
+          <div className={`skillsVector `}>
+            <img src={skillsVector} alt="vector img" />
+          </div>
         </div>
         <div className="skills">
           <div className="skillsInneer">
             <div className="icons reactIcon">
-              <i className="fa-brands fa-react"></i>
+              <FaReact style={{ height: '100%', width: '100%' }} />
               <p>React js</p>
             </div>
             <div className="icons javascriptIon">
-              <i className="fa-brands fa-square-js"></i>
+              <FaJsSquare style={{ height: '100%', width: '100%' }} />
               <p>JavaScript</p>
             </div>
             <div className="icons cssIon">
-              <i className="fa-brands fa-css3-alt"></i>
+              <FaCss3Alt style={{ height: '100%', width: '100%' }} />
               <p>CSS</p>
             </div>
             <div className="icons htmlIon">
-              <i className="fa-brands fa-html5"></i>
+              <FaHtml5 style={{ height: '100%', width: '100%' }} />
               <p>HTML</p>
             </div>
 
             <div className="icons taiwindIcon">
-              <img className='taiwindcss-logo' src={tailwindcss} alt="taiwindcss" />
+              <SiTailwindcss style={{ height: '100%', width: '100%' }} />
               <p>Taiwind CSS</p>
             </div>
             <div className="icons bootstapIon">
-              <i className="fa-brands fa-bootstrap"></i>
+              <FaBootstrap style={{ height: '100%', width: '100%' }} />
               <p>Bootstap</p>
             </div>
             <div className="icons gitIcon">
-              <i className="fa-brands fa-git-alt"></i>
+              <FaGitAlt style={{ height: '100%', width: '100%' }} />
               <p>Git</p>
             </div>
             <div className="icons githubIcon">
-              <i className="fa-brands fa-github"></i>
+              <FaGithub style={{ height: '100%', width: '100%' }} />
               <p>GitHub</p>
             </div>
           </div>
           <div className={`read-more-wrapper ${!home ? 'hide-content' : ''}`} >
             <Link to='/skills'>
               <button className='read-more-btn redirect-btn'>
-              See more <i className="fa-solid fa-arrow-right"></i>
+                See more 
+                <span className='arrow-icon' ><FaArrowRight /></span> 
               </button>
             </Link>
           </div>
@@ -65,8 +68,8 @@ const Skills = ({ home }) => {
           <h2 className="heading">Tools</h2>
           <div className="toolsIcons">
             <div className="icons">
-              <img src={vscode} alt="vs code icon" />
-              <p>vs code</p>
+              <SiVisualstudiocode style={{ height: '100%', width: '100%' }} />
+              <p>Vs code</p>
             </div>
           </div>
 

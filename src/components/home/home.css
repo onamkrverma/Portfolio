@@ -18,27 +18,15 @@
     margin: 5px 0;
 }
 
-.intro .socialIcons i {
-    color: #ffffff;
-    background: #252e6b;
-    padding: 6px;
-    border-radius: 20px;
-    font-size: 1.3rem;
-
-}
-
-.intro .socialIcons .github {
-    margin-left: 0;
-}
 
 .vectorImg {
-    width: 30%;
-    margin: 10px;
+    width: 380px;
 
 }
 
 .vectorImg img {
     width: 100%;
+    height: 100%;
 }
 
 .wavingHand {
@@ -83,6 +71,11 @@
 
 }
 
+.resume-contact-btn-wrapper{
+    display: flex;
+    align-items: center;
+}
+
 input.resumeBtn:hover{
     transform: translateX(-25px);
 }
@@ -96,7 +89,6 @@ input.contactBtn {
 
     /* Home page */
     .intro,
-    .vectorImg,
     .innerContent {
         width: 80%;
     }

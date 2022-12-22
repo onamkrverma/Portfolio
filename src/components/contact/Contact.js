@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './contact.css'
+import mailImage from './assets/Mail sent-rafiki.svg';
 
 const Contact = () => {
     const [success, setSuccess] = useState(false);
@@ -63,7 +64,7 @@ const Contact = () => {
 
             <div className="contactInner">
                 <div className="contactImg">
-                    <img src="image/message.png" alt="email img" />
+                    <img src={mailImage} alt="mail img" />
                 </div>
                 <div className="contact">
                     <form  method="POST" onSubmit={handleSubmit}>

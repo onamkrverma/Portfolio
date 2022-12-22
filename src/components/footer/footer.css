@@ -13,7 +13,7 @@ footer {
 }
 
 .footRight {
-    display: flex;
+    display: none;
     flex-direction: column;
 }
 
@@ -33,16 +33,13 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: var(--project-bg);
 }
-
-.socialIcons {
-    margin: 5px 0;
+.findMe-title{
+    font-weight: 600;
 }
-
-.socialIcons i {
-    margin: 6px 10px;
-    font-size: 1.6rem;
-    color: white;
+.findMe i{
+    font-size: 0.7rem;
 }
 
 
@@ -50,16 +47,6 @@ footer {
     .footerSection {
         padding: 20px;
     }
-
-    .findMe {
-        align-items: flex-start;
-    }
-
-    .findMe .socialIcons .github {
-        margin-left: 0;
-    }
-
-
     .copyright {
         font-size: 0.8rem;
     }

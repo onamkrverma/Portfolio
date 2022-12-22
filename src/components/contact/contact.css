@@ -14,9 +14,14 @@
     justify-content: center;
 }
 
+.contactImg{
+    width: 330px;
+    height: 330px;
+}
 
 .contactImg img {
-    width: 300px;
+    width: 100%;
+    height: 100%;
 }
 
 .contact form {
@@ -66,8 +71,8 @@ textarea {
 @media (max-width:426px){
     
 
-    .contactImg img {
-        width: 240px;
+    .contactImg {
+        width: 300px;
     }
 
     .contact {

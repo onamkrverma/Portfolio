@@ -48,6 +48,14 @@ export const projectData = [
         "image": "image/zomatoClone.jpeg",
         "github": "https://github.com/onamkrverma/zomatoClone",
         "demo" : "https://zomatouiclone.netlify.app/"
+    },
+    {
+        "id": "7",
+        "title": "Pixabay Clone",
+        "description": "Built a fully responsive Pixabay clone website using react.js and tailwind css. Tech stack used: React.js, JavaScript,tailwind CSS, HTML.",
+        "image": "image/pixabayClone.jpeg",
+        "github": "https://github.com/onamkrverma/pixabay-clone",
+        "demo" : "https://pixabayclone.netlify.app/"
     }
 
 ]
