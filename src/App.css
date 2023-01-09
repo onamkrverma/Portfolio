@@ -47,10 +47,10 @@
 .redirect-btn  {
   display: flex;
   align-items: center;
-  border: none;
+  border: 2px solid var(--primary-text);
   padding: 7px 15px;
   margin: 5px 0;
-  background: #202d8f;
+  background: var(--primary-text);
   color: white;
   border-radius: 25px;
   transition: all 0.3s;
@@ -67,8 +67,14 @@
   cursor: pointer;
   background: black;
   transform: translate(25px, 0px);
+  border: 2px solid black;
+  color: white;
 }
 
+.second-btn-style{
+  background: none;
+  color: black;
+}
 
 .nopagefound {
   display: flex;

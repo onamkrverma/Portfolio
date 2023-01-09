@@ -82,6 +82,9 @@ input.resumeBtn:hover{
 
 input.contactBtn {
     margin-left: 10px;
+    background: none;
+    color: black;
+    
 }
 
 
