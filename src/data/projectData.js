@@ -71,7 +71,7 @@ export const projectData = [
         "techUsed": "React.js, Firebase v9, CSS3, HTML.",
         "image": "image/instagramClone.jpg",
         "github": "https://github.com/onamkrverma/instagramClone",
-        "demo" : "https://instagramclone-onam.netlify.app/"
+        "demo" : "https://okv-photogram.netlify.app/"
     }
 
 ]
