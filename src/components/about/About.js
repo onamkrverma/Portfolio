@@ -9,12 +9,12 @@ const About = ({ home }) => {
 
 
   return (
-    <div>
-      <div className="aboutMe bottom-margin" >
+      <div className={`aboutMe ${home ? 'bottom-margin': ''} `} >
         <div className="heading">About Me</div>
         <div className="content">
-          <div className="profileImg-wrapper" style={{width:home?"200px":'', borderRadius:home?'50px':''}}>
+          <div className="profileImg-wrapper" style={{width:home?"200px":''}}>
             <img className='profile-image' src={profileImg} alt="img" loading='lazy' />
+            <div className="profile-image-sadow-box"></div>
           </div>
           <div className="innerContent">
             <h3 className={`${home ? 'hide-content' : ''}`} >Hello! Everyone <span className="wavingHand">👋🏻</span></h3>
@@ -66,8 +66,7 @@ const About = ({ home }) => {
 
         </div>
       </div>
-      
-    </div>
+    
   )
 }
 

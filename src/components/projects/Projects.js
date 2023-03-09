@@ -17,7 +17,7 @@ const Projects = ({ home }) => {
 
   return (
     <>
-      <div className="projectContainer bottom-margin" >
+      <div className={`projectContainer ${home ? 'bottom-margin':''}`} >
         <div className="heading-vector-wrapper">
           <div className="heading">Projects</div>
           <div className="projectVectorImg">

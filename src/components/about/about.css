@@ -16,9 +16,22 @@
 }
 
 .profileImg-wrapper  {
-  border-radius: 20px;
+  border-radius: 50px;
   width: 250px;
   height: fit-content;
+  position: relative;
+}
+
+.profileImg-wrapper::after{
+  content: '';
+  position: absolute;
+  bottom: 25px;
+  left: -30px;
+  z-index: -3;
+  width: 100%;
+  background: var(--primary-text);
+  height: 100%;
+  border-radius: inherit;
 }
 
 .profile-image{

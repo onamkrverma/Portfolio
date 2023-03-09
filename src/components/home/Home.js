@@ -20,7 +20,7 @@ const Home = () => {
 
   return (
     <div className='home-container'>
-      <div className="introBox bottom-margin">
+      <div className="introBox ">
         <div className="intro">
           <h1>Hi! everyone <span className="wavingHand">👋🏻</span></h1>
           <p>Myself <strong>Onam Kumar Verma</strong> a Frontend developer and I love to convert ideas into beautiful things through programming</p>

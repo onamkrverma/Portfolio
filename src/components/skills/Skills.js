@@ -2,16 +2,71 @@ import React from 'react'
 import './skills.css'
 import skillsVector from './assets/javaScript frameworks-pana.svg'
 import { Link } from 'react-router-dom'
-import { FaReact, FaJsSquare, FaCss3Alt, FaHtml5, FaBootstrap, FaGitAlt, FaGithub,FaArrowRight } from 'react-icons/fa'
-import { SiTailwindcss, SiVisualstudiocode } from 'react-icons/si'
-
-
-
+import { FaReact, FaJsSquare, FaCss3Alt, FaHtml5, FaBootstrap, FaGitAlt, FaGithub, FaArrowRight, FaNodeJs } from 'react-icons/fa'
+import { SiFirebase, SiTailwindcss, SiVisualstudiocode } from 'react-icons/si'
 
 const Skills = ({ home }) => {
+
+
+  const skillsObj = [
+    {
+      id: '1',
+      title: 'React js',
+      vectorIcon: <FaReact style={{ height: '100%', width: '100%' }} />
+    },
+    {
+      id: '2',
+      title: 'Node js',
+      vectorIcon: <FaNodeJs style={{ height: '100%', width: '100%' }} />
+    },
+    {
+      id: '3',
+      title: 'JavaScript',
+      vectorIcon: <FaJsSquare style={{ height: '100%', width: '100%' }} />
+    },
+    {
+      id: '4',
+      title: 'CSS3',
+      vectorIcon: <FaCss3Alt style={{ height: '100%', width: '100%' }} />
+    },
+    {
+      id: '5',
+      title: 'HTML5',
+      vectorIcon: <FaHtml5 style={{ height: '100%', width: '100%' }} />
+    },
+    {
+      id: '6',
+      title: 'Tailwind Css',
+      vectorIcon: <SiTailwindcss style={{ height: '100%', width: '100%' }} />
+    },
+    {
+      id: '7',
+      title: 'Bootstrap',
+      vectorIcon: <FaBootstrap style={{ height: '100%', width: '100%' }} />
+    },
+    {
+      id: '8',
+      title: 'Git',
+      vectorIcon: <FaGitAlt style={{ height: '100%', width: '100%' }} />
+    },
+    {
+      id: '9',
+      title: 'GitHub',
+      vectorIcon: <FaGithub style={{ height: '100%', width: '100%' }} />
+    },
+    {
+      id: '10',
+      title: 'Firebase',
+      vectorIcon: <SiFirebase style={{ height: '100%', width: '100%' }} />
+    },
+  ]
+
+
+
+
   return (
     <>
-      <div className="container bottom-margin" id="my">
+      <div className={`container bottom-margin`} id="my">
         <div className="heading-vector-wrapper">
           <div className="heading">Skills</div>
           <div className={`skillsVector `}>
@@ -19,46 +74,27 @@ const Skills = ({ home }) => {
           </div>
         </div>
         <div className="skills">
-          <div className="skillsInneer">
-            <div className="icons reactIcon">
-              <FaReact style={{ height: '100%', width: '100%' }} />
-              <p>React js</p>
+          <div className="skillsInneer" >
+            {home ? skillsObj.slice(0,6).map((skill) =>
+              <div className="icons skill-icon-title-wrapper" key={skill.id}>
+                {skill.vectorIcon}
+                <p>{skill.title}</p>
+              </div>
+            )
+            :
+            skillsObj.map((skill) =>
+            <div className="icons skill-icon-title-wrapper" key={skill.id}>
+              {skill.vectorIcon}
+              <p>{skill.title}</p>
             </div>
-            <div className="icons javascriptIon">
-              <FaJsSquare style={{ height: '100%', width: '100%' }} />
-              <p>JavaScript</p>
-            </div>
-            <div className="icons cssIon">
-              <FaCss3Alt style={{ height: '100%', width: '100%' }} />
-              <p>CSS</p>
-            </div>
-            <div className="icons htmlIon">
-              <FaHtml5 style={{ height: '100%', width: '100%' }} />
-              <p>HTML</p>
-            </div>
-
-            <div className="icons taiwindIcon">
-              <SiTailwindcss style={{ height: '100%', width: '100%' }} />
-              <p>Taiwind CSS</p>
-            </div>
-            <div className="icons bootstapIon">
-              <FaBootstrap style={{ height: '100%', width: '100%' }} />
-              <p>Bootstap</p>
-            </div>
-            <div className="icons gitIcon">
-              <FaGitAlt style={{ height: '100%', width: '100%' }} />
-              <p>Git</p>
-            </div>
-            <div className="icons githubIcon">
-              <FaGithub style={{ height: '100%', width: '100%' }} />
-              <p>GitHub</p>
-            </div>
+            )
+          }
           </div>
           <div className={`read-more-wrapper ${!home ? 'hide-content' : ''}`} >
             <Link to='/skills'>
               <button className='read-more-btn redirect-btn'>
-                See more 
-                <span className='arrow-icon' ><FaArrowRight /></span> 
+                See more
+                <span className='arrow-icon' ><FaArrowRight /></span>
               </button>
             </Link>
           </div>
@@ -69,7 +105,7 @@ const Skills = ({ home }) => {
           <div className="toolsIcons">
             <div className="icons">
               <SiVisualstudiocode style={{ height: '100%', width: '100%' }} />
-              <p>Vs code</p>
+              <p>Vs Code</p>
             </div>
           </div>
 

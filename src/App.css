@@ -28,6 +28,7 @@
   font-size: 3rem;
   margin-bottom: 20px;
   font-weight: 600;
+  padding-bottom: 20px;
 }
 
 
@@ -36,7 +37,7 @@
 }
 
 .bottom-margin{
-  margin-bottom: 85px;
+  margin-bottom: 65px;
 }
 .read-more-wrapper{
   margin-top: 15px;
