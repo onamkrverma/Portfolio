@@ -1,7 +1,4 @@
 # My Portfolio 
-<p align="center">
-<img  src="https://user-images.githubusercontent.com/106578262/185910034-53d60486-3fb8-4ba4-bfc4-5c542b06cfe9.png" width="500px">
-</p>
 
 My portfolio [onam.netlify.app](https://onam.netlify.app/) which features my personal projects as well as my resume and technical skills.
 
