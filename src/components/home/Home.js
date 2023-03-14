@@ -23,7 +23,7 @@ const Home = () => {
       <div className="introBox ">
         <div className="intro">
           <h1>Hi! everyone <span className="wavingHand">👋🏻</span></h1>
-          <p>Myself <strong>Onam Kumar Verma</strong> a Frontend developer and I love to convert ideas into beautiful things through programming</p>
+          <p>Myself <strong>Onam Kumar Verma</strong> a Frontend developer and I love to convert ideas into real world things through programming</p>
 
           <div className="social-icons-wrapper ">
             <a className='social-icons' href="https://github.com/onamkrverma/" target="_blank" rel="noopener noreferrer" title='github'>

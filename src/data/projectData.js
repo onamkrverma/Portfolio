@@ -50,7 +50,7 @@ export const projectData = [
         "id": "6",
         "title": "Zomato Clone (UI)",
         "description": "Built a fully responsive zomato clone website using react.js. ",
-        "techUsed": "React.js, JavaScript, CSS, HTML.",
+        "techUsed": "React.js, JavaScript, CSS3, HTML.",
         "image": "image/zomatoClone.jpeg",
         "github": "https://github.com/onamkrverma/zomatoClone",
         "demo" : "https://zomatouiclone.netlify.app/"
@@ -59,7 +59,7 @@ export const projectData = [
         "id": "7",
         "title": "Pixabay Clone",
         "description": "Built a fully responsive Pixabay clone website using react.js and tailwind css. ",
-        "techUsed": "React.js, JavaScript,tailwind CSS, HTML.",
+        "techUsed": "React.js, JavaScript,tailwind CSS3, HTML.",
         "image": "image/pixabayClone.jpg",
         "github": "https://github.com/onamkrverma/pixabay-clone",
         "demo" : "https://pixabayclone.netlify.app/"
@@ -68,10 +68,19 @@ export const projectData = [
         "id": "8",
         "title": "Instagram Clone",
         "description": "Built a completely optimised and responsive Instagram clone using react.js and Firebase v9. ",
-        "techUsed": "React.js, Firebase v9, CSS3, HTML.",
+        "techUsed": "React.js, Firebase v9,react-icons, CSS3, HTML.",
         "image": "image/instagramClone.jpg",
         "github": "https://github.com/onamkrverma/instagramClone",
         "demo" : "https://okv-photogram.netlify.app/"
+    },
+    {
+        "id": "9",
+        "title": "Okv-Music",
+        "description": "Built a music streaming Progressive web app with react js. ",
+        "techUsed": "React.js, Redux toolkit, CSS3, HTML,Youtube Api,Ytdl-core package",
+        "image": "image/okvMusic.jpg",
+        "github": "https://github.com/onamkrverma/okv-music",
+        "demo" : "https://okv-music.netlify.app/"
     }
 
 ]

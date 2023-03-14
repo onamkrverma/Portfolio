@@ -19,7 +19,7 @@ const About = ({ home }) => {
           <div className="innerContent">
             <h3 className={`${home ? 'hide-content' : ''}`} >Hello! Everyone <span className="wavingHand">👋🏻</span></h3>
             <div className="short-intro">
-              <p>I am Onam Kumar Verma a Frontend developer who is passinate about Full stack development from Delhi, India.</p>
+              <p>I am Onam Kumar Verma a Frontend developer who is passionate about Full stack development from Delhi, India.</p>
               <p>I am a self taught developer because i learn how to code by myself with the help of internet, online courses from website like <span><a href="https://freecodecamp.org/" target='_blank' rel="noreferrer">Freecodecamp</a> and <a href="https://www.w3schools.com/" target='_blank' rel="noreferrer">W3schools</a> </span>etc... and YouTube </p>
             </div>
             <div className={`read-more-wrapper ${!home?'hide-content':''}`} >
