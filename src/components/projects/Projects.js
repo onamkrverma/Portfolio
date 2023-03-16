@@ -27,7 +27,12 @@ const Projects = ({ home }) => {
         <div className="project">
           {projectList.map((element) =>
             <div className="projectInner" key={element.id}>
-              <img src={element.image} alt="project img " />
+              <div className="project-image-wrapper">
+              <img 
+              className={`project-image ${element.id==='1' ? 'hide-image-scroll':''}`}
+              src={element.image}
+              alt="project img " />
+              </div>
               <div className="project-title-desc-wrapper">
                 <div className="project-title">
                 <h3 className="projectTitle">{element.title}</h3>

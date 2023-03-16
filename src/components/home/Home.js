@@ -47,9 +47,9 @@ const Home = () => {
         </div>
 
       </div>
-      <About home={'home'} />
-      <Projects home={'home'} />
-      <Skills home={'home'} />
+      <About home={true} />
+      <Projects home={true} />
+      <Skills home={true} />
 
 
     </div>
