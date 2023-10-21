@@ -37,7 +37,7 @@ const Home = () => {
             </a>
           </div>
           <div className="resume-contact-btn-wrapper">
-            <input type="button" onClick={redirectResume} value="Resume" className="resumeBtn redirect-btn" />
+    {/* <input type="button" onClick={redirectResume} value="Resume" className="resumeBtn redirect-btn" /> */}
             <input type="button" onClick={redirectContact} value="Contact Me" className="contactBtn redirect-btn" />
           </div>
 
