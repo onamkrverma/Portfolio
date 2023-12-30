@@ -1,140 +1,141 @@
 /* navbar section */
 .headerSection {
-    position: sticky;
-    top: 0;
-    z-index: 1;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 .navBar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background: white;
-    color: black;
-    position: relative;
-    box-shadow: 0px 5px 6px 0px rgb(0 0 0 / 20%);
-
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  color: black;
+  position: relative;
+  box-shadow: 0px 5px 6px 0px rgb(0 0 0 / 20%);
 }
-
+.nav-alert-message {
+  color: red;
+  text-align: center;
+  padding: 5px;
+  font-size: small;
+  background: white;
+  font-weight: 500;
+}
 .sideBar {
-    display: none;
+  display: none;
 }
 
 .leftNav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 20px;
 }
 
 .logo a {
-    text-decoration: none;
-    color: #202d8f;
+  text-decoration: none;
+  color: #202d8f;
 }
 
 .rightNav {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .rightNav ul {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .rightNav ul li {
-    list-style: none;
+  list-style: none;
 }
 
 .rightNav ul li a {
-    text-decoration: none;
-    margin: 0 5px;
-    color: var(--primary-text);
-    border-radius: 20px;
-    padding: 10px 15px;
-    font-weight: 600;
+  text-decoration: none;
+  margin: 0 5px;
+  color: var(--primary-text);
+  border-radius: 20px;
+  padding: 10px 15px;
+  font-weight: 600;
 }
 
 .rightNav ul li a:hover {
-    background: var(--primary-text);
-    color: var(--primary-bg);
+  background: var(--primary-text);
+  color: var(--primary-bg);
 }
 
-.active-link{
-    border: 1px solid;
+.active-link {
+  border: 1px solid;
 }
-
 
 /* menubar section */
 .menuBar {
-    display: none;
-    position: absolute;
-    right: 5px;
-    top: 15px;
-
+  display: none;
+  position: absolute;
+  right: 5px;
+  top: 15px;
 }
 
 .line {
-    width: 30px;
-    margin: 5px;
-    background: var(--primary-text);
-    height: 3px;
-    transition: all 0.5s;
+  width: 30px;
+  margin: 5px;
+  background: var(--primary-text);
+  height: 3px;
+  transition: all 0.5s;
 }
 
 .menuActive .line1 {
-    transform: rotate(45deg) translate(6px, 1px);
+  transform: rotate(45deg) translate(6px, 1px);
 }
 
 .menuActive .line2 {
-    opacity: 0;
+  opacity: 0;
 }
 
 .menuActive .line3 {
-    transform: rotate(-45deg) translate(5px, -3px);
+  transform: rotate(-45deg) translate(5px, -3px);
 }
 
+@media (max-width: 426px) {
+  .navBar {
+    flex-direction: column;
+    align-items: normal;
+    justify-content: flex-start;
+    transition: all 0.5s ease;
+  }
 
-@media (max-width:426px){
-    .navBar {
-        flex-direction: column;
-        align-items: normal;
-        justify-content: flex-start;
-        transition: all 0.5s ease;
-    }
+  .rightNav {
+    display: none;
+    padding: 0 10px;
+    position: absolute;
+    bottom: 20px;
+  }
 
-    .rightNav {
-        display: none;
-        padding: 0 10px;
-        position: absolute;
-        bottom: 20px;
-    }
+  .rightNav ul {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
 
-    .rightNav ul {
-        flex-direction: column;
-        align-items: flex-start;
-        width: 100%;
-    }
+  .rightNav ul li {
+    width: 100%;
+  }
 
-    .rightNav ul li {
-        width: 100%;
-    }
-    
-    .rightNav ul li a {
-        display: block;
-        text-transform: capitalize;
-    }
+  .rightNav ul li a {
+    display: block;
+    text-transform: capitalize;
+  }
 
-    .menuBar {
-        display: block;
-    }
+  .menuBar {
+    display: block;
+  }
 
-    .menuBar .navBar{
-        border-radius: 0 0 10px 50px;
-    }
-
+  .menuBar .navBar {
+    border-radius: 0 0 10px 50px;
+  }
 }
